@@ -17,6 +17,8 @@ import examples.ContactList;
 import examples.Median;
 import graphs.BreadthFirstSearch;
 import graphs.DepthFirstSearch;
+import java.util.ArrayList;
+import java.util.List;
 import javaCollections.javaDataSctructure;
 import searchtAlgorithms.BinarySearch;
 import searchtAlgorithms.Interpolation;
@@ -148,7 +150,7 @@ public class AlgorithmsJava {
         contacts.find("hak");
         */
         
-        Median testMedian = new Median();
+        /*Median testMedian = new Median();
         testMedian.add(12);
         System.out.println(testMedian.getMedian());
         testMedian.add(4);
@@ -160,7 +162,16 @@ public class AlgorithmsJava {
         testMedian.add(8);
         System.out.println(testMedian.getMedian());
         testMedian.add(7);
-        System.out.println(testMedian.getMedian());
+        System.out.println(testMedian.getMedian());*/
+        
+        String hello = "1231231";
+        //String newString = hello.substring(0, 1) + hello.substring(5,1);
+        List myList = new ArrayList();
+        myList.add("wer");
+        myList.add(1);
+        
+        System.out.println(myList.get(0).getClass().getSimpleName());
+        System.out.println(myList.get(0).getClass().getTypeName());
     }
     
     public static void showQueue(){
