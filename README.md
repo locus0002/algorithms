@@ -1,10 +1,10 @@
-# Javac Algorithms
+# Java Algorithms
 
 In this repository, you will find some implementations of algorithms and solutions to problems
 
 ## Data Structure
 
-[datastructure](src/datastrcuture)
+[datastructure](src/datastructure)
 
 - Stack
 - Queue
@@ -15,7 +15,7 @@ In this repository, you will find some implementations of algorithms and solutio
 
 ## Graphs
 
-[graphs](src/datastrcuture)
+[graphs](src/graphs)
 
 - Breadth first search
 - Depth first search
